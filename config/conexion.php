@@ -16,7 +16,7 @@
         		print "¡Error BD!: " . $e->getMessage() . "<br/>";
 				die();
 			}
-        }
+        
 
         public function set_names(){
             return $this->dbh->query("SET NAMES 'utf8'");
